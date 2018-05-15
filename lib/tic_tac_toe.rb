@@ -108,7 +108,7 @@ def play(board)
   end
   player = winner(board)
   if player != nil
-  puts "Congratulations #{player}! You Won!"
+  puts "Congratulations #{player}!"
   else " Cat's Game!"
   end
 end
